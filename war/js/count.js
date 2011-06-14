@@ -163,6 +163,7 @@ function officePlaySound() {
 $(function() {
 	counterReset();
 	getScores();
+	setInterval("getScores()", 5000);
 	positionInit();
 	eventListenners();
 	$("#textinput").focus().click();
