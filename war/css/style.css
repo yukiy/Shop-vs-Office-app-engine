@@ -1,0 +1,60 @@
+body {
+    background-color: #333333;
+}
+
+
+
+#scores {
+	position: absolute;
+	top: 30px;
+	right: 0px;
+}
+
+#office {
+    position: absolute;
+	top: 0;
+    left: 0;
+}
+
+#shop {
+	position: absolute;
+	top: 300px;
+    left: 0;
+}
+
+
+.numbers {
+    position: absolute;
+    top: -323px;
+	left: 8px;
+    z-index: 1;
+    color: #DDDDDD;
+    font-family: Verdana;
+    font-size: 275px;
+    width: 613px;
+    letter-spacing: 27px;
+	text-align: right;
+}
+
+
+.flipboards {
+    position: absolute;
+    z-index: 10;
+	background: url("../img/flipboards.png") left top no-repeat;
+	width: 605px;
+	height: 261px;
+}
+
+#textinput{
+	position: relative;
+	z-index:100;
+	background-color:transparent;
+	border: none;
+	top: 0px;
+}
+
+
+#shopAudio1, #shopAudio2, #shopAudio3, #shopAudio4, #shopAudio5, #shopAudio6, #shopAudio7, #shopAudio8, #shopAudio9, #officeAudio1, #officeAudio2, #officeAudio3, #officeAudio4, #officeAudio5, #officeAudio6, #officeAudio7, #officeAudio8, #officeAudio9{
+	/*visibility: hidden;*/
+	display:none;
+}
